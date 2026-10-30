@@ -1,0 +1,17 @@
+[project]
+name = "gitasstorage"
+version = "0.1.0"
+description = "Experimental resumable Git archives with SHA-256 verified restoration"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+gitasstorage = "git_as_storage.cli:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["git_as_storage*"]

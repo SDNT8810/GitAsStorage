@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.gitasstorage/
+.venus-backup/
+*.log
+*.part
+state.json
+upload.lock
+checkpoint-before-*.json
+dist/
+build/
+*.egg-info/
